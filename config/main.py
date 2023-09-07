@@ -9,7 +9,7 @@ import os
 enable_deepspeed = False
 enable_ptv2 = False
 enable_lora = True
-load_in_bit = 0  # 4 load_in_4bit, 8 load_in_8bit  other  0
+load_in_bit = 4  # 4 load_in_4bit, 8 load_in_8bit  other  0
 
 
 if enable_lora:
