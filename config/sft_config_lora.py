@@ -74,7 +74,7 @@ train_info_args = {
 
     'convert_onnx': False, # 转换onnx模型
     'do_train': True,
-    'train_file':  [ './data/finetune_train_examples.json'],
+    'train_file':  [ '/kaggle/working/chatglm2_finetuning/data/finetune_train_examples.json'],
     'max_epochs': 20,
     'max_steps': -1,
     'optimizer': 'lion', # one of [lamb,adma,adamw_hf,adamw,adamw_torch,adamw_torch_fused,adamw_torch_xla,adamw_apex_fused,adafactor,adamw_anyprecision,sgd,adagrad,adamw_bnb_8bit,adamw_8bit,lion_8bit,lion_32bit,paged_adamw_32bit,paged_adamw_8bit,paged_lion_32bit,paged_lion_8bit]
@@ -115,7 +115,7 @@ train_info_args = {
     'max_grad_norm': 1.0,
     'weight_decay': 0,
     'warmup_steps': 0,
-    'output_dir': './output',
+    'output_dir': '/kaggle/output',
     'max_seq_length': 1024, # 如果资源充足，推荐长度2048 与官方保持一致
     'max_target_length': 100,  # 预测最大长度, 保留字段
     'use_fast_tokenizer': False,
