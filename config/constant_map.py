@@ -8,9 +8,9 @@
 train_info_models = {
     'chatglm2-6b': {
         'model_type': 'chatglm2',
-        'model_name_or_path': '/data/nlp/pre_models/torch/chatglm2/chatglm2-6b',
-        'config_name': '/data/nlp/pre_models/torch/chatglm2/chatglm2-6b/config.json',
-        'tokenizer_name': '/data/nlp/pre_models/torch/chatglm2/chatglm2-6b',
+        'model_name_or_path': 'THUDM/chatglm2-6b',
+        'config_name': 'THUDM/chatglm2-6b',
+        'tokenizer_name': 'THUDM/chatglm2-6b',
     },
 
     'chatglm2-6b-int4': {
